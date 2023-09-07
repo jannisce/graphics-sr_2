@@ -546,7 +546,7 @@ int main(int argc, char** argv) {
         SDL_RenderPresent(renderer);
         SDL_Delay(1000 / 60);
         // Llama a la función para escribir el archivo BMP
-        writeBMP("zbuffer.bmp");
+        writeBMP("draw.bmp");
     }
 
 
